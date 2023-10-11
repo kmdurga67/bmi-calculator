@@ -29,8 +29,11 @@ Follow these steps to set up and run the BMI Calculator project:
    git clone https://github.com/kmdurga67/bmi-calculator.git
 
 2. Navigate to the project directory
+   ```bash
     cd bmi-calculator
 3. Install Proeject dependencies
+    ```bash
     npm install
 4. Start the development server
+    ```bash
     npm start
