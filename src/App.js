@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BmiCalculator from "./components/BmiCalculator";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 className="text-7xl font-bold text-center mt-7">BMI Calculator</h1>
+      <div className="container mx-auto pt-3 bg-slate-900 text-white md:w-[36rem] md:h-[32rem] mt-[4rem] sm:w-[18rem] sm:h-[38rem]">
+        <BmiCalculator />
+      </div>
+    </>
   );
 }
 
